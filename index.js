@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
       modal.style.display = 'none'; // Hide the modal when close button is clicked
   });
 
-  // Optional: Close the modal when clicking outside of it
+  // Close the modal when clicking outside of it
   window.addEventListener('click', function (e) {
       if (e.target === modal) {
           modal.style.display = 'none';
